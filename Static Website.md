@@ -1,5 +1,6 @@
 Lab 01: Hosting Your First Static Website in Azure
-Author: Jhante Charles Estimated Time: 30 Minutes Difficulty: Beginner
+Author: Hazekiah Kennedy-Wilson Estimated Time: 30 Minutes Difficulty: Beginner
+
 1. Objective
 In this lab, you will deploy your first public-facing resource in Azure. Instead of building a complex server to host a simple website, you will use Azure Blob Storage. This introduces you to the concept of PaaS (Platform as a Service) and Serverless hosting, where you focus on the content, and Azure handles the infrastructure.
 
@@ -8,14 +9,13 @@ In this lab, you will deploy your first public-facing resource in Azure. Instead
 
 3. Prerequisites
 [ ] Active Azure Subscription (Free Tier is fine).
-[ ] Completed Week 1 Video Modules.
 [ ] A basic text editor (Notepad, TextEdit, or VS Code).
 
 4. Lab Variables (Naming Convention)
 Use these names to ensure consistency.
-Resource Group: rg-lab01-[yourname]
+Resource Group: rg-lab01-[yourname] (e.g rg-lab01-hazekiah)
 Location: East US
-Storage Account Name: stlab01[yourname]
+Storage Account Name: staticweblab01[yourname] (e.g staticweblab01hazekiah)
 Note: Storage account names must be globally unique, all lowercase, and no special characters.
 
 5. Step-by-Step Instructions
@@ -35,7 +35,7 @@ Search for Storage accounts in the search bar.
 Click + Create.
 Basics Tab:
 Resource Group: Select rg-lab01-[yourname].
-Storage account name: stlab01[yourname] (e.g., staticweblab01hazekiah). Remember: All lowercase, numbers and letters only.
+Storage account name: staticweblab01[yourname] (e.g., staticweblab01hazekiah). Remember: All lowercase, numbers and letters only.
 Region: (US) East US.
 Performance: Standard.
 Redundancy: Locally-redundant storage (LRS). This is the cheapest option for labs.
